@@ -1,4 +1,9 @@
 version: "2.1"
+
+networks:
+  monitor-net:
+    driver: bridge
+
 services:
   ombi:
     image: lscr.io/linuxserver/ombi:latest
